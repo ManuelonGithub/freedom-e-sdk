@@ -4,8 +4,10 @@
 /enter.bash
 *.dtb
 venv/
+.vscode/
 pip-cache/
 bsp/*/build/
 bsp/*/install/
 software/*/release/
 software/*/debug/
+software/*/build/
