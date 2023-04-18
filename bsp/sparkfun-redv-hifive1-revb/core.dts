@@ -2,8 +2,8 @@
 / {
         #address-cells = <1>;
         #size-cells = <1>;
-        compatible = "sparkfun,redv";
-        model = "sparkfun,rev";
+        compatible = "sparkfun,redv,hifive1-revb";
+        model = "sparkfun,redv,hifive1-revb";
         cpus {
                 #address-cells = <1>;
                 #size-cells = <0>;

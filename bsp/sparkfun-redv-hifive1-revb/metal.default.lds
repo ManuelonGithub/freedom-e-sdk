@@ -13,7 +13,7 @@ MEMORY
 {
     itim (airwx) : ORIGIN = 0x8000000, LENGTH = 0x2000
     ram (arw!xi) : ORIGIN = 0x80000000, LENGTH = 0x4000
-    rom (irx!wa) : ORIGIN = 0x20010000, LENGTH = 0x6a120
+    rom (irx!wa) : ORIGIN = 0x20000000, LENGTH = 0x7a120
 }
 
 PHDRS
@@ -81,6 +81,7 @@ SECTIONS
     PROVIDE( metal_dtim_0_memory_end = 0x80000000 + 0x4000 );
     PROVIDE( metal_itim_0_memory_start = 0x8000000 );
     PROVIDE( metal_itim_0_memory_end = 0x8000000 + 0x2000 );
+
 
     /* ROM SECTION
      *
